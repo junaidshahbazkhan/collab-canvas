@@ -10,3 +10,21 @@ A full-stack collaborative canvas application built with React, Next.js, Socket.
 git clone <repository-url>
 cd collaborative-canvas
 
+# Install frontend dependencies
+npm install
+
+# Install backend dependencies
+cd server
+npm install
+cd ..
+
+# Start backend
+cd server
+npm run dev
+
+# In another terminal, start frontend
+npm run dev
+
+Frontend → http://localhost:3000
+Backend health check → http://localhost:3001/health
+
